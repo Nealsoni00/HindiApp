@@ -1,0 +1,809 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3634FC77210C163B0013F8B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3634FC76210C163B0013F8B3 /* AppDelegate.swift */; };
+		3634FC7E210C163B0013F8B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3634FC7C210C163B0013F8B3 /* Main.storyboard */; };
+		3634FC80210C163C0013F8B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3634FC7F210C163C0013F8B3 /* Assets.xcassets */; };
+		3634FC83210C163C0013F8B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3634FC81210C163C0013F8B3 /* LaunchScreen.storyboard */; };
+		3634FC8E210C163C0013F8B3 /* Hindhi_AlphabetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3634FC8D210C163C0013F8B3 /* Hindhi_AlphabetTests.swift */; };
+		3634FC99210C163C0013F8B3 /* Hindhi_AlphabetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3634FC98210C163C0013F8B3 /* Hindhi_AlphabetUITests.swift */; };
+		3634FCA9210C1BB60013F8B3 /* AlphabetVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3634FCA8210C1BB60013F8B3 /* AlphabetVC.swift */; };
+		3634FCAB210C1E2B0013F8B3 /* AlphabetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3634FCAA210C1E2B0013F8B3 /* AlphabetCell.swift */; };
+		3634FCAE210CB3280013F8B3 /* CollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3634FCAD210CB3280013F8B3 /* CollectionReusableView.swift */; };
+		365F15CB21175B9900DA4475 /* dhanush.png in Resources */ = {isa = PBXBuildFile; fileRef = 365F159E21175B9500DA4475 /* dhanush.png */; };
+		365F15CC21175B9900DA4475 /* bhaaloo.png in Resources */ = {isa = PBXBuildFile; fileRef = 365F159F21175B9600DA4475 /* bhaaloo.png */; };
+		365F15CD21175B9900DA4475 /* oon.png in Resources */ = {isa = PBXBuildFile; fileRef = 365F15A021175B9600DA4475 /* oon.png */; };
+		365F15CE21175B9900DA4475 /* patang.png in Resources */ = {isa = PBXBuildFile; fileRef = 365F15A121175B9600DA4475 /* patang.png */; };
+		365F15CF21175B9900DA4475 /* santara.png in Resources */ = {isa = PBXBuildFile; fileRef = 365F15A221175B9600DA4475 /* santara.png */; };
+		365F15D021175B9900DA4475 /* damroo.png in Resources */ = {isa = PBXBuildFile; fileRef = 365F15A321175B9600DA4475 /* damroo.png */; };
+		365F15D121175B9900DA4475 /* ek.png in Resources */ = {isa = PBXBuildFile; fileRef = 365F15A421175B9600DA4475 /* ek.png */; };
+		365F15D221175B9900DA4475 /* makkhi.png in Resources */ = {isa = PBXBuildFile; fileRef = 365F15A521175B9600DA4475 /* makkhi.png */; };
+		365F15D321175B9900DA4475 /* shatkon.png in Resources */ = {isa = PBXBuildFile; fileRef = 365F15A621175B9600DA4475 /* shatkon.png */; };
+		365F15D421175B9900DA4475 /* tamaatar.png in Resources */ = {isa = PBXBuildFile; fileRef = 365F15A721175B9600DA4475 /* tamaatar.png */; };
+		365F15D521175B9900DA4475 /* khargosh.png in Resources */ = {isa = PBXBuildFile; fileRef = 365F15A821175B9600DA4475 /* khargosh.png */; };
+		365F15D621175B9900DA4475 /* aushadhi.png in Resources */ = {isa = PBXBuildFile; fileRef = 365F15A921175B9600DA4475 /* aushadhi.png */; };
+		365F15D721175B9900DA4475 /* tharmas.png in Resources */ = {isa = PBXBuildFile; fileRef = 365F15AA21175B9600DA4475 /* tharmas.png */; };
+		365F15D821175B9900DA4475 /* ghar.png in Resources */ = {isa = PBXBuildFile; fileRef = 365F15AB21175B9600DA4475 /* ghar.png */; };
+		365F15D921175B9900DA4475 /* aam.png in Resources */ = {isa = PBXBuildFile; fileRef = 365F15AC21175B9700DA4475 /* aam.png */; };
+		365F15DA21175B9900DA4475 /* jahaaj.png in Resources */ = {isa = PBXBuildFile; fileRef = 365F15AD21175B9700DA4475 /* jahaaj.png */; };
+		365F15DB21175B9900DA4475 /* kamal.png in Resources */ = {isa = PBXBuildFile; fileRef = 365F15AE21175B9700DA4475 /* kamal.png */; };
+		365F15DC21175B9900DA4475 /* kshatriya.png in Resources */ = {isa = PBXBuildFile; fileRef = 365F15AF21175B9700DA4475 /* kshatriya.png */; };
+		365F15DD21175B9900DA4475 /* thhappa.png in Resources */ = {isa = PBXBuildFile; fileRef = 365F15B021175B9700DA4475 /* thhappa.png */; };
+		365F15DE21175B9900DA4475 /* jhanda.png in Resources */ = {isa = PBXBuildFile; fileRef = 365F15B121175B9700DA4475 /* jhanda.png */; };
+		365F15DF21175B9900DA4475 /* dhhakkan.png in Resources */ = {isa = PBXBuildFile; fileRef = 365F15B221175B9700DA4475 /* dhhakkan.png */; };
+		365F15E021175B9900DA4475 /* eekh.png in Resources */ = {isa = PBXBuildFile; fileRef = 365F15B321175B9700DA4475 /* eekh.png */; };
+		365F15E121175B9900DA4475 /* ulloo.png in Resources */ = {isa = PBXBuildFile; fileRef = 365F15B421175B9700DA4475 /* ulloo.png */; };
+		365F15E221175B9900DA4475 /* bakri.png in Resources */ = {isa = PBXBuildFile; fileRef = 365F15B521175B9700DA4475 /* bakri.png */; };
+		365F15E321175B9900DA4475 /* yagya.png in Resources */ = {isa = PBXBuildFile; fileRef = 365F15B621175B9700DA4475 /* yagya.png */; };
+		365F15E421175B9900DA4475 /* rishi.png in Resources */ = {isa = PBXBuildFile; fileRef = 365F15B721175B9700DA4475 /* rishi.png */; };
+		365F15E521175B9900DA4475 /* gadha.png in Resources */ = {isa = PBXBuildFile; fileRef = 365F15B821175B9800DA4475 /* gadha.png */; };
+		365F15E621175B9900DA4475 /* nal.png in Resources */ = {isa = PBXBuildFile; fileRef = 365F15B921175B9800DA4475 /* nal.png */; };
+		365F15E721175B9900DA4475 /* okhali.png in Resources */ = {isa = PBXBuildFile; fileRef = 365F15BA21175B9800DA4475 /* okhali.png */; };
+		365F15E821175B9900DA4475 /* rath.png in Resources */ = {isa = PBXBuildFile; fileRef = 365F15BB21175B9800DA4475 /* rath.png */; };
+		365F15E921175B9900DA4475 /* gyanee.png in Resources */ = {isa = PBXBuildFile; fileRef = 365F15BC21175B9800DA4475 /* gyanee.png */; };
+		365F15EA21175B9900DA4475 /* shalgam.png in Resources */ = {isa = PBXBuildFile; fileRef = 365F15BD21175B9800DA4475 /* shalgam.png */; };
+		365F15EB21175B9900DA4475 /* vakeel.png in Resources */ = {isa = PBXBuildFile; fileRef = 365F15BE21175B9800DA4475 /* vakeel.png */; };
+		365F15EC21175B9900DA4475 /* angoor.png in Resources */ = {isa = PBXBuildFile; fileRef = 365F15BF21175B9800DA4475 /* angoor.png */; };
+		365F15ED21175B9900DA4475 /* hathi.png in Resources */ = {isa = PBXBuildFile; fileRef = 365F15C021175B9800DA4475 /* hathi.png */; };
+		365F15EE21175B9900DA4475 /* anaar.png in Resources */ = {isa = PBXBuildFile; fileRef = 365F15C121175B9800DA4475 /* anaar.png */; };
+		365F15EF21175B9900DA4475 /* ainak.png in Resources */ = {isa = PBXBuildFile; fileRef = 365F15C221175B9800DA4475 /* ainak.png */; };
+		365F15F021175B9900DA4475 /* imli.png in Resources */ = {isa = PBXBuildFile; fileRef = 365F15C321175B9900DA4475 /* imli.png */; };
+		365F15F121175B9900DA4475 /* trishool.png in Resources */ = {isa = PBXBuildFile; fileRef = 365F15C421175B9900DA4475 /* trishool.png */; };
+		365F15F221175B9900DA4475 /* lattoo.png in Resources */ = {isa = PBXBuildFile; fileRef = 365F15C521175B9900DA4475 /* lattoo.png */; };
+		365F15F321175B9900DA4475 /* phal.png in Resources */ = {isa = PBXBuildFile; fileRef = 365F15C621175B9900DA4475 /* phal.png */; };
+		365F15F421175B9900DA4475 /* chammach.png in Resources */ = {isa = PBXBuildFile; fileRef = 365F15C721175B9900DA4475 /* chammach.png */; };
+		365F15F521175B9900DA4475 /* tarbooz.png in Resources */ = {isa = PBXBuildFile; fileRef = 365F15C821175B9900DA4475 /* tarbooz.png */; };
+		365F15F621175B9900DA4475 /* chhatri.png in Resources */ = {isa = PBXBuildFile; fileRef = 365F15C921175B9900DA4475 /* chhatri.png */; };
+		365F15F721175B9900DA4475 /* dawaat.png in Resources */ = {isa = PBXBuildFile; fileRef = 365F15CA21175B9900DA4475 /* dawaat.png */; };
+		365F15FB21175BCB00DA4475 /* LetterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365F15FA21175BCB00DA4475 /* LetterVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3634FC8A210C163C0013F8B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3634FC6B210C163B0013F8B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3634FC72210C163B0013F8B3;
+			remoteInfo = "Hindhi Alphabet";
+		};
+		3634FC95210C163C0013F8B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3634FC6B210C163B0013F8B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3634FC72210C163B0013F8B3;
+			remoteInfo = "Hindhi Alphabet";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3634FC73210C163B0013F8B3 /* Hindhi Alphabet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hindhi Alphabet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3634FC76210C163B0013F8B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3634FC7D210C163B0013F8B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3634FC7F210C163C0013F8B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3634FC82210C163C0013F8B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3634FC84210C163C0013F8B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3634FC89210C163C0013F8B3 /* Hindhi AlphabetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hindhi AlphabetTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3634FC8D210C163C0013F8B3 /* Hindhi_AlphabetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hindhi_AlphabetTests.swift; sourceTree = "<group>"; };
+		3634FC8F210C163C0013F8B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3634FC94210C163C0013F8B3 /* Hindhi AlphabetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hindhi AlphabetUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3634FC98210C163C0013F8B3 /* Hindhi_AlphabetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hindhi_AlphabetUITests.swift; sourceTree = "<group>"; };
+		3634FC9A210C163C0013F8B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3634FCA8210C1BB60013F8B3 /* AlphabetVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlphabetVC.swift; sourceTree = "<group>"; };
+		3634FCAA210C1E2B0013F8B3 /* AlphabetCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlphabetCell.swift; sourceTree = "<group>"; };
+		3634FCAC210C2A270013F8B3 /* Devnew.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Devnew.ttf; sourceTree = "<group>"; };
+		3634FCAD210CB3280013F8B3 /* CollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionReusableView.swift; sourceTree = "<group>"; };
+		365F159E21175B9500DA4475 /* dhanush.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dhanush.png; sourceTree = "<group>"; };
+		365F159F21175B9600DA4475 /* bhaaloo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bhaaloo.png; sourceTree = "<group>"; };
+		365F15A021175B9600DA4475 /* oon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = oon.png; sourceTree = "<group>"; };
+		365F15A121175B9600DA4475 /* patang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = patang.png; sourceTree = "<group>"; };
+		365F15A221175B9600DA4475 /* santara.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = santara.png; sourceTree = "<group>"; };
+		365F15A321175B9600DA4475 /* damroo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = damroo.png; sourceTree = "<group>"; };
+		365F15A421175B9600DA4475 /* ek.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ek.png; sourceTree = "<group>"; };
+		365F15A521175B9600DA4475 /* makkhi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = makkhi.png; sourceTree = "<group>"; };
+		365F15A621175B9600DA4475 /* shatkon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shatkon.png; sourceTree = "<group>"; };
+		365F15A721175B9600DA4475 /* tamaatar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tamaatar.png; sourceTree = "<group>"; };
+		365F15A821175B9600DA4475 /* khargosh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = khargosh.png; sourceTree = "<group>"; };
+		365F15A921175B9600DA4475 /* aushadhi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aushadhi.png; sourceTree = "<group>"; };
+		365F15AA21175B9600DA4475 /* tharmas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tharmas.png; sourceTree = "<group>"; };
+		365F15AB21175B9600DA4475 /* ghar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ghar.png; sourceTree = "<group>"; };
+		365F15AC21175B9700DA4475 /* aam.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aam.png; sourceTree = "<group>"; };
+		365F15AD21175B9700DA4475 /* jahaaj.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jahaaj.png; sourceTree = "<group>"; };
+		365F15AE21175B9700DA4475 /* kamal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kamal.png; sourceTree = "<group>"; };
+		365F15AF21175B9700DA4475 /* kshatriya.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kshatriya.png; sourceTree = "<group>"; };
+		365F15B021175B9700DA4475 /* thhappa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thhappa.png; sourceTree = "<group>"; };
+		365F15B121175B9700DA4475 /* jhanda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jhanda.png; sourceTree = "<group>"; };
+		365F15B221175B9700DA4475 /* dhhakkan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dhhakkan.png; sourceTree = "<group>"; };
+		365F15B321175B9700DA4475 /* eekh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eekh.png; sourceTree = "<group>"; };
+		365F15B421175B9700DA4475 /* ulloo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ulloo.png; sourceTree = "<group>"; };
+		365F15B521175B9700DA4475 /* bakri.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bakri.png; sourceTree = "<group>"; };
+		365F15B621175B9700DA4475 /* yagya.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yagya.png; sourceTree = "<group>"; };
+		365F15B721175B9700DA4475 /* rishi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rishi.png; sourceTree = "<group>"; };
+		365F15B821175B9800DA4475 /* gadha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gadha.png; sourceTree = "<group>"; };
+		365F15B921175B9800DA4475 /* nal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nal.png; sourceTree = "<group>"; };
+		365F15BA21175B9800DA4475 /* okhali.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = okhali.png; sourceTree = "<group>"; };
+		365F15BB21175B9800DA4475 /* rath.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rath.png; sourceTree = "<group>"; };
+		365F15BC21175B9800DA4475 /* gyanee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gyanee.png; sourceTree = "<group>"; };
+		365F15BD21175B9800DA4475 /* shalgam.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shalgam.png; sourceTree = "<group>"; };
+		365F15BE21175B9800DA4475 /* vakeel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vakeel.png; sourceTree = "<group>"; };
+		365F15BF21175B9800DA4475 /* angoor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = angoor.png; sourceTree = "<group>"; };
+		365F15C021175B9800DA4475 /* hathi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hathi.png; sourceTree = "<group>"; };
+		365F15C121175B9800DA4475 /* anaar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = anaar.png; sourceTree = "<group>"; };
+		365F15C221175B9800DA4475 /* ainak.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ainak.png; sourceTree = "<group>"; };
+		365F15C321175B9900DA4475 /* imli.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imli.png; sourceTree = "<group>"; };
+		365F15C421175B9900DA4475 /* trishool.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trishool.png; sourceTree = "<group>"; };
+		365F15C521175B9900DA4475 /* lattoo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lattoo.png; sourceTree = "<group>"; };
+		365F15C621175B9900DA4475 /* phal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = phal.png; sourceTree = "<group>"; };
+		365F15C721175B9900DA4475 /* chammach.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chammach.png; sourceTree = "<group>"; };
+		365F15C821175B9900DA4475 /* tarbooz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tarbooz.png; sourceTree = "<group>"; };
+		365F15C921175B9900DA4475 /* chhatri.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chhatri.png; sourceTree = "<group>"; };
+		365F15CA21175B9900DA4475 /* dawaat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dawaat.png; sourceTree = "<group>"; };
+		365F15FA21175BCB00DA4475 /* LetterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3634FC70210C163B0013F8B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3634FC86210C163C0013F8B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3634FC91210C163C0013F8B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3634FC6A210C163B0013F8B3 = {
+			isa = PBXGroup;
+			children = (
+				3634FC75210C163B0013F8B3 /* Hindhi Alphabet */,
+				3634FC8C210C163C0013F8B3 /* Hindhi AlphabetTests */,
+				3634FC97210C163C0013F8B3 /* Hindhi AlphabetUITests */,
+				3634FC74210C163B0013F8B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3634FC74210C163B0013F8B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3634FC73210C163B0013F8B3 /* Hindhi Alphabet.app */,
+				3634FC89210C163C0013F8B3 /* Hindhi AlphabetTests.xctest */,
+				3634FC94210C163C0013F8B3 /* Hindhi AlphabetUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3634FC75210C163B0013F8B3 /* Hindhi Alphabet */ = {
+			isa = PBXGroup;
+			children = (
+				365F159D21175B8800DA4475 /* images */,
+				3634FC76210C163B0013F8B3 /* AppDelegate.swift */,
+				3634FCA7210C1B780013F8B3 /* views */,
+				3634FCA6210C1B600013F8B3 /* Controllers */,
+				3634FC7F210C163C0013F8B3 /* Assets.xcassets */,
+				3634FC84210C163C0013F8B3 /* Info.plist */,
+			);
+			path = "Hindhi Alphabet";
+			sourceTree = "<group>";
+		};
+		3634FC8C210C163C0013F8B3 /* Hindhi AlphabetTests */ = {
+			isa = PBXGroup;
+			children = (
+				3634FC8D210C163C0013F8B3 /* Hindhi_AlphabetTests.swift */,
+				3634FC8F210C163C0013F8B3 /* Info.plist */,
+			);
+			path = "Hindhi AlphabetTests";
+			sourceTree = "<group>";
+		};
+		3634FC97210C163C0013F8B3 /* Hindhi AlphabetUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3634FC98210C163C0013F8B3 /* Hindhi_AlphabetUITests.swift */,
+				3634FC9A210C163C0013F8B3 /* Info.plist */,
+			);
+			path = "Hindhi AlphabetUITests";
+			sourceTree = "<group>";
+		};
+		3634FCA6210C1B600013F8B3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3634FCAC210C2A270013F8B3 /* Devnew.ttf */,
+				3634FCA8210C1BB60013F8B3 /* AlphabetVC.swift */,
+				365F15FA21175BCB00DA4475 /* LetterVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3634FCA7210C1B780013F8B3 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				3634FC7C210C163B0013F8B3 /* Main.storyboard */,
+				3634FC81210C163C0013F8B3 /* LaunchScreen.storyboard */,
+				3634FCAA210C1E2B0013F8B3 /* AlphabetCell.swift */,
+				3634FCAD210CB3280013F8B3 /* CollectionReusableView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		365F159D21175B8800DA4475 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				365F15AC21175B9700DA4475 /* aam.png */,
+				365F15C221175B9800DA4475 /* ainak.png */,
+				365F15C121175B9800DA4475 /* anaar.png */,
+				365F15BF21175B9800DA4475 /* angoor.png */,
+				365F15A921175B9600DA4475 /* aushadhi.png */,
+				365F15B521175B9700DA4475 /* bakri.png */,
+				365F159F21175B9600DA4475 /* bhaaloo.png */,
+				365F15C721175B9900DA4475 /* chammach.png */,
+				365F15C921175B9900DA4475 /* chhatri.png */,
+				365F15A321175B9600DA4475 /* damroo.png */,
+				365F15CA21175B9900DA4475 /* dawaat.png */,
+				365F159E21175B9500DA4475 /* dhanush.png */,
+				365F15B221175B9700DA4475 /* dhhakkan.png */,
+				365F15B321175B9700DA4475 /* eekh.png */,
+				365F15A421175B9600DA4475 /* ek.png */,
+				365F15B821175B9800DA4475 /* gadha.png */,
+				365F15AB21175B9600DA4475 /* ghar.png */,
+				365F15BC21175B9800DA4475 /* gyanee.png */,
+				365F15C021175B9800DA4475 /* hathi.png */,
+				365F15C321175B9900DA4475 /* imli.png */,
+				365F15AD21175B9700DA4475 /* jahaaj.png */,
+				365F15B121175B9700DA4475 /* jhanda.png */,
+				365F15AE21175B9700DA4475 /* kamal.png */,
+				365F15A821175B9600DA4475 /* khargosh.png */,
+				365F15AF21175B9700DA4475 /* kshatriya.png */,
+				365F15C521175B9900DA4475 /* lattoo.png */,
+				365F15A521175B9600DA4475 /* makkhi.png */,
+				365F15B921175B9800DA4475 /* nal.png */,
+				365F15BA21175B9800DA4475 /* okhali.png */,
+				365F15A021175B9600DA4475 /* oon.png */,
+				365F15A121175B9600DA4475 /* patang.png */,
+				365F15C621175B9900DA4475 /* phal.png */,
+				365F15BB21175B9800DA4475 /* rath.png */,
+				365F15B721175B9700DA4475 /* rishi.png */,
+				365F15A221175B9600DA4475 /* santara.png */,
+				365F15BD21175B9800DA4475 /* shalgam.png */,
+				365F15A621175B9600DA4475 /* shatkon.png */,
+				365F15C821175B9900DA4475 /* tarbooz.png */,
+				365F15AA21175B9600DA4475 /* tharmas.png */,
+				365F15B021175B9700DA4475 /* thhappa.png */,
+				365F15A721175B9600DA4475 /* tamaatar.png */,
+				365F15C421175B9900DA4475 /* trishool.png */,
+				365F15B421175B9700DA4475 /* ulloo.png */,
+				365F15BE21175B9800DA4475 /* vakeel.png */,
+				365F15B621175B9700DA4475 /* yagya.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3634FC72210C163B0013F8B3 /* Hindhi Alphabet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3634FC9D210C163C0013F8B3 /* Build configuration list for PBXNativeTarget "Hindhi Alphabet" */;
+			buildPhases = (
+				3634FC6F210C163B0013F8B3 /* Sources */,
+				3634FC70210C163B0013F8B3 /* Frameworks */,
+				3634FC71210C163B0013F8B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hindhi Alphabet";
+			productName = "Hindhi Alphabet";
+			productReference = 3634FC73210C163B0013F8B3 /* Hindhi Alphabet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3634FC88210C163C0013F8B3 /* Hindhi AlphabetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3634FCA0210C163C0013F8B3 /* Build configuration list for PBXNativeTarget "Hindhi AlphabetTests" */;
+			buildPhases = (
+				3634FC85210C163C0013F8B3 /* Sources */,
+				3634FC86210C163C0013F8B3 /* Frameworks */,
+				3634FC87210C163C0013F8B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3634FC8B210C163C0013F8B3 /* PBXTargetDependency */,
+			);
+			name = "Hindhi AlphabetTests";
+			productName = "Hindhi AlphabetTests";
+			productReference = 3634FC89210C163C0013F8B3 /* Hindhi AlphabetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3634FC93210C163C0013F8B3 /* Hindhi AlphabetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3634FCA3210C163C0013F8B3 /* Build configuration list for PBXNativeTarget "Hindhi AlphabetUITests" */;
+			buildPhases = (
+				3634FC90210C163C0013F8B3 /* Sources */,
+				3634FC91210C163C0013F8B3 /* Frameworks */,
+				3634FC92210C163C0013F8B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3634FC96210C163C0013F8B3 /* PBXTargetDependency */,
+			);
+			name = "Hindhi AlphabetUITests";
+			productName = "Hindhi AlphabetUITests";
+			productReference = 3634FC94210C163C0013F8B3 /* Hindhi AlphabetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3634FC6B210C163B0013F8B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Neal Soni";
+				TargetAttributes = {
+					3634FC72210C163B0013F8B3 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					3634FC88210C163C0013F8B3 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 3634FC72210C163B0013F8B3;
+					};
+					3634FC93210C163C0013F8B3 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 3634FC72210C163B0013F8B3;
+					};
+				};
+			};
+			buildConfigurationList = 3634FC6E210C163B0013F8B3 /* Build configuration list for PBXProject "Hindhi Alphabet" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3634FC6A210C163B0013F8B3;
+			productRefGroup = 3634FC74210C163B0013F8B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3634FC72210C163B0013F8B3 /* Hindhi Alphabet */,
+				3634FC88210C163C0013F8B3 /* Hindhi AlphabetTests */,
+				3634FC93210C163C0013F8B3 /* Hindhi AlphabetUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3634FC71210C163B0013F8B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				365F15E421175B9900DA4475 /* rishi.png in Resources */,
+				365F15CF21175B9900DA4475 /* santara.png in Resources */,
+				365F15E921175B9900DA4475 /* gyanee.png in Resources */,
+				365F15F121175B9900DA4475 /* trishool.png in Resources */,
+				365F15EC21175B9900DA4475 /* angoor.png in Resources */,
+				365F15CD21175B9900DA4475 /* oon.png in Resources */,
+				365F15D521175B9900DA4475 /* khargosh.png in Resources */,
+				3634FC83210C163C0013F8B3 /* LaunchScreen.storyboard in Resources */,
+				365F15DC21175B9900DA4475 /* kshatriya.png in Resources */,
+				365F15EF21175B9900DA4475 /* ainak.png in Resources */,
+				365F15D421175B9900DA4475 /* tamaatar.png in Resources */,
+				365F15DD21175B9900DA4475 /* thhappa.png in Resources */,
+				365F15EB21175B9900DA4475 /* vakeel.png in Resources */,
+				365F15CB21175B9900DA4475 /* dhanush.png in Resources */,
+				365F15DA21175B9900DA4475 /* jahaaj.png in Resources */,
+				365F15E221175B9900DA4475 /* bakri.png in Resources */,
+				365F15ED21175B9900DA4475 /* hathi.png in Resources */,
+				365F15DF21175B9900DA4475 /* dhhakkan.png in Resources */,
+				365F15E321175B9900DA4475 /* yagya.png in Resources */,
+				365F15EA21175B9900DA4475 /* shalgam.png in Resources */,
+				365F15DE21175B9900DA4475 /* jhanda.png in Resources */,
+				3634FC80210C163C0013F8B3 /* Assets.xcassets in Resources */,
+				365F15F021175B9900DA4475 /* imli.png in Resources */,
+				365F15D821175B9900DA4475 /* ghar.png in Resources */,
+				365F15D621175B9900DA4475 /* aushadhi.png in Resources */,
+				365F15D921175B9900DA4475 /* aam.png in Resources */,
+				365F15F621175B9900DA4475 /* chhatri.png in Resources */,
+				365F15E521175B9900DA4475 /* gadha.png in Resources */,
+				365F15D121175B9900DA4475 /* ek.png in Resources */,
+				365F15E021175B9900DA4475 /* eekh.png in Resources */,
+				365F15F521175B9900DA4475 /* tarbooz.png in Resources */,
+				365F15F721175B9900DA4475 /* dawaat.png in Resources */,
+				365F15EE21175B9900DA4475 /* anaar.png in Resources */,
+				365F15F421175B9900DA4475 /* chammach.png in Resources */,
+				365F15E721175B9900DA4475 /* okhali.png in Resources */,
+				365F15F221175B9900DA4475 /* lattoo.png in Resources */,
+				365F15D221175B9900DA4475 /* makkhi.png in Resources */,
+				365F15E621175B9900DA4475 /* nal.png in Resources */,
+				365F15D021175B9900DA4475 /* damroo.png in Resources */,
+				365F15E121175B9900DA4475 /* ulloo.png in Resources */,
+				365F15DB21175B9900DA4475 /* kamal.png in Resources */,
+				365F15CC21175B9900DA4475 /* bhaaloo.png in Resources */,
+				365F15CE21175B9900DA4475 /* patang.png in Resources */,
+				365F15E821175B9900DA4475 /* rath.png in Resources */,
+				365F15F321175B9900DA4475 /* phal.png in Resources */,
+				365F15D321175B9900DA4475 /* shatkon.png in Resources */,
+				365F15D721175B9900DA4475 /* tharmas.png in Resources */,
+				3634FC7E210C163B0013F8B3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3634FC87210C163C0013F8B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3634FC92210C163C0013F8B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3634FC6F210C163B0013F8B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3634FC77210C163B0013F8B3 /* AppDelegate.swift in Sources */,
+				3634FCAE210CB3280013F8B3 /* CollectionReusableView.swift in Sources */,
+				3634FCAB210C1E2B0013F8B3 /* AlphabetCell.swift in Sources */,
+				365F15FB21175BCB00DA4475 /* LetterVC.swift in Sources */,
+				3634FCA9210C1BB60013F8B3 /* AlphabetVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3634FC85210C163C0013F8B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3634FC8E210C163C0013F8B3 /* Hindhi_AlphabetTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3634FC90210C163C0013F8B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3634FC99210C163C0013F8B3 /* Hindhi_AlphabetUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3634FC8B210C163C0013F8B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3634FC72210C163B0013F8B3 /* Hindhi Alphabet */;
+			targetProxy = 3634FC8A210C163C0013F8B3 /* PBXContainerItemProxy */;
+		};
+		3634FC96210C163C0013F8B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3634FC72210C163B0013F8B3 /* Hindhi Alphabet */;
+			targetProxy = 3634FC95210C163C0013F8B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3634FC7C210C163B0013F8B3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3634FC7D210C163B0013F8B3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3634FC81210C163C0013F8B3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3634FC82210C163C0013F8B3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3634FC9B210C163C0013F8B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3634FC9C210C163C0013F8B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3634FC9E210C163C0013F8B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7933NKJF62;
+				INFOPLIST_FILE = "Hindhi Alphabet/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.NealSoni.Hindhi-Alphabet";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3634FC9F210C163C0013F8B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7933NKJF62;
+				INFOPLIST_FILE = "Hindhi Alphabet/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.NealSoni.Hindhi-Alphabet";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3634FCA1210C163C0013F8B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7933NKJF62;
+				INFOPLIST_FILE = "Hindhi AlphabetTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.NealSoni.Hindhi-AlphabetTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hindhi Alphabet.app/Hindhi Alphabet";
+			};
+			name = Debug;
+		};
+		3634FCA2210C163C0013F8B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7933NKJF62;
+				INFOPLIST_FILE = "Hindhi AlphabetTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.NealSoni.Hindhi-AlphabetTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hindhi Alphabet.app/Hindhi Alphabet";
+			};
+			name = Release;
+		};
+		3634FCA4210C163C0013F8B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7933NKJF62;
+				INFOPLIST_FILE = "Hindhi AlphabetUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.NealSoni.Hindhi-AlphabetUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Hindhi Alphabet";
+			};
+			name = Debug;
+		};
+		3634FCA5210C163C0013F8B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7933NKJF62;
+				INFOPLIST_FILE = "Hindhi AlphabetUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.NealSoni.Hindhi-AlphabetUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Hindhi Alphabet";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3634FC6E210C163B0013F8B3 /* Build configuration list for PBXProject "Hindhi Alphabet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3634FC9B210C163C0013F8B3 /* Debug */,
+				3634FC9C210C163C0013F8B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3634FC9D210C163C0013F8B3 /* Build configuration list for PBXNativeTarget "Hindhi Alphabet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3634FC9E210C163C0013F8B3 /* Debug */,
+				3634FC9F210C163C0013F8B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3634FCA0210C163C0013F8B3 /* Build configuration list for PBXNativeTarget "Hindhi AlphabetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3634FCA1210C163C0013F8B3 /* Debug */,
+				3634FCA2210C163C0013F8B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3634FCA3210C163C0013F8B3 /* Build configuration list for PBXNativeTarget "Hindhi AlphabetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3634FCA4210C163C0013F8B3 /* Debug */,
+				3634FCA5210C163C0013F8B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3634FC6B210C163B0013F8B3 /* Project object */;
+}
