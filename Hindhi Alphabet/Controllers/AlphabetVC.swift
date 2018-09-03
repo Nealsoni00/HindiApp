@@ -62,12 +62,12 @@ class AlphabetVC: UICollectionViewController, UICollectionViewDelegateFlowLayout
                          ["ulloo", "oon", "rishi"],
                          ["ek", "ainak", "okhali", "aushadhi"],
                          ["angoor", ""],
-                         ["kamal", "kargosh", "gadha", "ghar", ""],
+                         ["kamal", "khargosh", "gadha", "ghar", ""],
                          ["chammach", "chhatri", "jahaaj", "jhanda", ""],
                          ["tamaatar", "thhappa", "damroo", "dhhakkan", ""],
                          ["tarbooz", "tharmas", "dawaat", "dhanush", "nal"],
                          ["patang", "phal", "bakri", "bhaaloo", "makkhi"],
-                         ["yagya", "rath", "latoo", "vakeel"],
+                         ["yagya", "rath", "lattoo", "vakeel"],
                          ["shalgam", "shatkon", "santara", "hathi"],
                          ["kshatriya", "trishool", "gyanee", ""]]
 
